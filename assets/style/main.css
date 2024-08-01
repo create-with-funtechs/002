@@ -34,22 +34,32 @@
 
 }
 
-.container{
-    max-width: var(--container-width);
-    width: 100%;
-    margin: 0 auto;
-}
-h1{
-    font-size: var(--heading-font-size);
-    line-height: 97%;
-    margin: 0;
-}
 
-.article{
-    font-size: var(--article-font-size);
-    line-height: var(--article-line-height);
-}
+/* container */
 
-.main_section{
-    margin-top: 205px;
-}
+
+/* headings */
+
+
+/* article */
+
+
+/* section design */
+
+
+/* navbar */
+
+
+/* hero */
+
+
+/* about */
+
+
+/* projects */
+
+
+/* contact */
+
+
+/* footer */
