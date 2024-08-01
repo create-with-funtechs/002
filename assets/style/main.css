@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+:root{
+    /* colors */
+    --primary-color: #6366F1;
+    --secondary-color: #F2F2F2;
+    --accent-color: #EC4899;
+    --gray-text: #606060;
+
+    /* layout */
+    --container-width: 1000px;
+    --section-margin-top: 205px;
+
+
+    /* heading styles */
+    --heading-font-size: 3.75rem;
+    --heading-line-height: 97%;
+    --heading-margin: 0;
+
+    --heading2-font-size: 2rem;
+    --heading2-line-height: 117%;
+    --heading2-margin: 1rem 0;
+
+    --article-font-size: 1rem;
+    --article-line-height: 166%;
+
+    --link-font-size: 0.8rem;
+    --link-color:var(--gray-text);
+    --link-letter-spacing: 0.1rem;
+
+
+}
+
+.container{
+    max-width: var(--container-width);
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    font-size: var(--heading-font-size);
+    line-height: 97%;
+    margin: 0;
+}
+
+.article{
+    font-size: var(--article-font-size);
+    line-height: var(--article-line-height);
+}
+
+.main_section{
+    margin-top: 205px;
+}
